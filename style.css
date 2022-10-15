@@ -9,7 +9,18 @@ body {
     font-family: Helvetica, sans-serif;
     background-color: rgb(30, 30, 30);
 }
+/* configs gerais acima */
+header, .logo {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+}
 
+/* navbar acima */
 main {
     min-height: 100vh;
     max-width: 95vw;
@@ -18,8 +29,4 @@ main {
     background-position: right bottom;
 }
 
-ul {
-    display: flex;
-    list-style-type: none;
-    gap: 1em;
-}
+
