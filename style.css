@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(30, 30, 30);
+}
+
+main {
+    min-height: 100vh;
+    max-width: 90vw;
+    background-image: url(https://media.discordapp.net/attachments/1016341785716469780/1030931023803994215/basketball.png?width=448&height=520);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
