@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --white-main: rgb(240, 255, 247);
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(30, 30, 30);
+}
+/* configs gerais acima */
+header, .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    min-height: 20vh;
+    padding: 2em;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+.logo {
+    text-transform: uppercase;
+    color: var(--white-main);
+}
+.logo > h2 > span {
+    color: #50A428;
+    font-weight: 200;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+    justify-content: center;
+}
+header > ul > li > a {
+    color: var(--white-main);
+    font-size: 1.1rem;
+}
+
+/* navbar acima */
+main {
+    min-height: 80vh;
+    max-width: 95vw;
+    background-image: url(https://media.discordapp.net/attachments/1016341785716469780/1030931023803994215/basketball.png?width=448&height=520);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
