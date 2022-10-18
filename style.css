@@ -53,4 +53,13 @@ main {
     background-position: right bottom;
 }
 
-
+.redline {
+    border: 2px solid red;
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 6rem;
+    justify-content: center;
+    gap: 1em;
+}
