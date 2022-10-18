@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    border: none;
 }
 
 :root {
@@ -51,15 +53,34 @@ main {
     background-image: url(https://media.discordapp.net/attachments/1016341785716469780/1030931023803994215/basketball.png?width=448&height=520);
     background-repeat: no-repeat;
     background-position: right bottom;
+    display: flex;
+    align-items: center;
 }
 
 .redline {
+    font-family: Inter;
+    color: var(--white-main);
     border: 2px solid red;
     width: 30vw;
     height: 40vh;
     display: flex;
     flex-direction: column;
-    margin: 0 6rem;
+    margin: 0 0 0 8rem;
     justify-content: center;
     gap: 1em;
+    font-size: 1.4em;
+}
+
+.redline > h1 {
+    font-size: 3.2em;
+}
+
+.redline > button {
+    color: var(--white-main);
+    background-color: #50A428;
+    width: 10em;
+    height: 3.2em;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: 700;
 }
